@@ -13,6 +13,7 @@ Reproducibility Report on Hierarchical Histogram Threshold SegmentationAuto-term
 Training set: 200 images
 Test set: 100 images
 * Choice of Hyperparameters :
+
 | Parameter  | Value |
 | ------------- | ------------- |
 | Superpixels  | 500  |
