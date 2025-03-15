@@ -78,6 +78,6 @@ def test_multiple_images(input_folder, output_folder, num_images=200):
     print(f"Processing complete! Results saved in '{output_folder}'.")
 
 # Example usage:
-input_folder = "BSDS300/images/train"
-output_folder = "BSDS300/results/train"
-test_multiple_images(input_folder, output_folder, num_images=200)
+input_folder = "BSDS300/images/test"
+output_folder = "BSDS300/results/test"
+test_multiple_images(input_folder, output_folder, num_images=100)

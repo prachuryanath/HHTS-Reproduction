@@ -39,10 +39,7 @@ def get_colored_labels_with_image(input_labels, input_image):
     return label_image
 
 # Load an example image
-# image = cv2.imread("BSDS300/images/train/8049.jpg")  # Replace with your actual image path
-# image = cv2.imread("BSDS300/images/train/23080.jpg")  # Replace with your actual image path
-image = cv2.imread("BSDS300/images/train/41004.jpg")  # Replace with your actual image path
-# image = cv2.resize(image, (100, 300))  # Resize for visualization (optional)
+image = cv2.imread("BSDS300/images/train/8049.jpg")  # Replace with your actual image path
 
 # Generate random labels (for testing purposes)
 labels = np.random.randint(0, 5, size=(image.shape[0], image.shape[1]), dtype=np.int32)
